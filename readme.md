@@ -14,13 +14,12 @@ The matrix can optionally synchronize a canvas 2D context object so the
 transformations on the canvas matches pixel perfect the local
 transformations of the Matrix object.
 
-Using toCSS() can synchronize a DOM element as well.
-
 No dependencies.
 
 *Now also includes a vector reflection method (see included demo for
 example usage):*
 
+![reflection demo](http://i.imgur.com/GEwezeD.png)
 
 Install
 -------
@@ -53,12 +52,11 @@ object.
 
 Some of the methods:
 
-    *NEW matrix.interpolateAnim();      // decomposed interpolation
+    NEW* matrix.toString();
+    NEW* matrix.toJSON();
+    NEW* matrix.toCSS();
+    NEW* matrix.toArray();
 
-    matrix.toString();
-    matrix.toJSON();
-    matrix.toCSS();
-    matrix.toArray();
     matrix.rotate(angle);    		    // angle in radians
     matrix.rotateDeg(angle);   		    // angle in degrees
     matrix.rotateFromVector(x, y);      // use a vector to set angle
@@ -117,7 +115,7 @@ or apply to a canvas context (other than optionally referenced in constructor):
 Get inverse transformation matrix (the matrix you need to apply to get back
 to a identity matrix from whatever the matrix contains):
 
-    var invmatrix = matrix.inverse();
+    var invmatrix = matrix.inverse();              // was getInverse()
 
 or
 
@@ -131,12 +129,6 @@ You can interpolate between current and a new matrix. The function
 returns a new matrix:
 
     var imatrix = matrix.interpolate(matrix2, t);  // t = [0.0, 1.0]
-    var imatrix = matrix.interpolateAnim(matrix2, t);
-
-The former does a naive interpolation which works fine with translate
-and scale. The latter is better suited when there is for example rotation
-involved to avoid "flipping" (and is what the browsers are using) utilizing
-decomposition.
 
 Check if there is any transforms applied:
 
