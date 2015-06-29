@@ -684,8 +684,7 @@ Matrix.prototype = {
      * @returns {string}
      */
     toJSON: function () {
-        var me = this;
-        return '{"a":' + me.a + ',"b":' + me.b + ',"c":' + me.c + ',"d":' + me.d + ',"e":' + me.e + ',"f":' + me.f + '}';
+        return JSON.stringify(this.toArray());
     },
 
     /**
