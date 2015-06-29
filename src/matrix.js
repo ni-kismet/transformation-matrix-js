@@ -1,13 +1,8 @@
-/*!
- Transformation Matrix v2.0
- (c) Epistemex 2014-2015
- www.epistemex.com
- By Ken Fyrstenberg
- Contributions by leeoniya.
- License: MIT, header required.
- */
-
 /**
+ *
+ * Copy of the deleted repository epistemex/transformation-matrix-js.
+ * All rights are reserved to Epistemex.
+ *
  * 2D transformation matrix object initialized with identity matrix.
  *
  * The matrix can synchronize a canvas context by supplying the context

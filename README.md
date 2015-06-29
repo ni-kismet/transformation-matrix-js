@@ -1,7 +1,8 @@
 2D Affine Transformation Matrix
 -------------------------------
 
-*Copy of the deleted repository epistemex/transformation-matrix-js*
+Copy of the deleted repository epistemex/transformation-matrix-js.
+All rights are reserved to Epistemex.
 
 An affine transformation matrix (3x3) class for JavaScript that performs
 various transformations such as rotate, scale, translate, skew, shear, add,
