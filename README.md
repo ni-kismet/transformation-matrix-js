@@ -35,7 +35,7 @@ git via SSH:
 
 Using Bower:
 
-    $ bower install transformation-matrix-js
+    $ bower install marktjagd-transformation-matrix-js
 
 
 Usage
