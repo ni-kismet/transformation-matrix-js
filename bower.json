@@ -1,14 +1,14 @@
 {
-  "name": "transformation-matrix-js",
-  "version": "2.0.0",
-  "homepage": "https://github.com/marktjagd/transformation-matrix-js",
-  "description": "Powerful transformation matrix that can be used to apply transformations to points, canvas etc.",
-  "main": "dist",
-  "keywords": [
-    "matrix",
-    "transformation",
-    "javascript",
-    "canvas"
-  ],
-  "license": "MIT"
+    "name": "transformation-matrix-js",
+    "version": "2.0.0",
+    "homepage": "https://github.com/marktjagd/transformation-matrix-js",
+    "description": "Powerful transformation matrix that can be used to apply transformations to points, canvas etc.",
+    "main": "dist",
+    "keywords": [
+        "matrix",
+        "transformation",
+        "javascript",
+        "canvas"
+    ],
+    "license": "MIT"
 }
