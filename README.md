@@ -90,7 +90,7 @@ Get current transform matrix property values:
     var e = matrix.e;	// translate x
     var f = matrix.f;	// translate y
 
-Also see:
+also see:
 
     matrix.decompose();
 
