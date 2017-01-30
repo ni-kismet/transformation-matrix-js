@@ -1,6 +1,6 @@
 {
     "name": "transformation-matrix-js",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "homepage": "https://github.com/marktjagd/transformation-matrix-js",
     "description": "Powerful transformation matrix that can be used to apply transformations to points, canvas etc.",
     "main": "dist",
